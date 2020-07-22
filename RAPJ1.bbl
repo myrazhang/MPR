@@ -1,0 +1,309 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Alfieri%
+\ \BBA {} Matta%
+}{%
+Alfieri%
+\ \BBA {} Matta%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+alfieri2012mathematical}
+\APACinsertmetastar {%
+alfieri2012mathematical}%
+\begin{APACrefauthors}%
+Alfieri, A.%
+\BCBT {}\ \BBA {} Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mathematical programming formulations for approximate
+  simulation of multistage production systems} {Mathematical programming
+  formulations for approximate simulation of multistage production
+  systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Journal of Operational
+  Research}{219}{3}{773--783}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alfieri%
+, Matta%
+\BCBL {}\ \BBA {} Pastore%
+}{%
+Alfieri%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+alfieri2020time}
+\APACinsertmetastar {%
+alfieri2020time}%
+\begin{APACrefauthors}%
+Alfieri, A.%
+, Matta, A.%
+\BCBL {}\ \BBA {} Pastore, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The time buffer approximated Buffer Allocation Problem:
+  A row--column generation approach} {The time buffer approximated buffer
+  allocation problem: A row--column generation approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers \& Operations Research}{115}{}{104835}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chan%
+\ \BBA {} Schruben%
+}{%
+Chan%
+\ \BBA {} Schruben%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+chan2008optimization}
+\APACinsertmetastar {%
+chan2008optimization}%
+\begin{APACrefauthors}%
+Chan, W\BPBI K.%
+\BCBT {}\ \BBA {} Schruben, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimization models of discrete-event system dynamics}
+  {Optimization models of discrete-event system dynamics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Operations Research}{56}{5}{1218--1237}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Matta%
+}{%
+Matta%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+matta2008simulation}
+\APACinsertmetastar {%
+matta2008simulation}%
+\begin{APACrefauthors}%
+Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simulation optimization with mathematical programming
+  representation of discrete event systems} {Simulation optimization with
+  mathematical programming representation of discrete event systems}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2008 Winter Simulation Conference} {2008 winter
+  simulation conference}\ (\BPGS\ 1393--1400).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pedrielli%
+, Alfieri%
+\BCBL {}\ \BBA {} Matta%
+}{%
+Pedrielli%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+pedrielli2015integrated}
+\APACinsertmetastar {%
+pedrielli2015integrated}%
+\begin{APACrefauthors}%
+Pedrielli, G.%
+, Alfieri, A.%
+\BCBL {}\ \BBA {} Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Integrated simulation--optimisation of pull control
+  systems} {Integrated simulation--optimisation of pull control
+  systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Production
+  Research}{53}{14}{4317--4336}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tan%
+}{%
+Tan%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+tan2015mathematical}
+\APACinsertmetastar {%
+tan2015mathematical}%
+\begin{APACrefauthors}%
+Tan, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mathematical programming representations of the dynamics
+  of continuous-flow production systems} {Mathematical programming
+  representations of the dynamics of continuous-flow production
+  systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IIE Transactions}{47}{2}{173--189}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weiss%
+\ \BBA {} Stolletz%
+}{%
+Weiss%
+\ \BBA {} Stolletz%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+weiss2015buffer}
+\APACinsertmetastar {%
+weiss2015buffer}%
+\begin{APACrefauthors}%
+Weiss, S.%
+\BCBT {}\ \BBA {} Stolletz, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Buffer allocation in stochastic flow lines via
+  sample-based optimization with initial bounds} {Buffer allocation in
+  stochastic flow lines via sample-based optimization with initial
+  bounds}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{OR spectrum}{37}{4}{869--902}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+\ \BBA {} Matta%
+}{%
+Zhang%
+\ \BBA {} Matta%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+zhang2018data}
+\APACinsertmetastar {%
+zhang2018data}%
+\begin{APACrefauthors}%
+Zhang, M.%
+\BCBT {}\ \BBA {} Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data-driven Downtime Bottleneck Detection in Open Flow
+  Lines} {Data-driven downtime bottleneck detection in open flow lines}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2018 IEEE 14th International Conference on Automation
+  Science and Engineering (CASE)} {2018 ieee 14th international conference on
+  automation science and engineering (case)}\ (\BPGS\ 1513--1518).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+\ \BBA {} Matta%
+}{%
+Zhang%
+\ \BBA {} Matta%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+zhang2020models}
+\APACinsertmetastar {%
+zhang2020models}%
+\begin{APACrefauthors}%
+Zhang, M.%
+\BCBT {}\ \BBA {} Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Models and algorithms for throughput improvement problem
+  of serial production lines via downtime reduction} {Models and algorithms for
+  throughput improvement problem of serial production lines via downtime
+  reduction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IISE Transactions}{}{}{1--15}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Matta%
+\BCBL {}\ \BBA {} Alfieri%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+zhang2020simulation}
+\APACinsertmetastar {%
+zhang2020simulation}%
+\begin{APACrefauthors}%
+Zhang, M.%
+, Matta, A.%
+\BCBL {}\ \BBA {} Alfieri, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simulation optimization with mathematical programming
+  representation of discrete event systems} {Simulation optimization with
+  mathematical programming representation of discrete event systems}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 Winter Simulation Conference} {2020 winter
+  simulation conference}\ (\BPG~accepted).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Pastore%
+, Matta%
+\BCBL {}\ \BBA {} Alfieri%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+zhang2020BAP}
+\APACinsertmetastar {%
+zhang2020BAP}%
+\begin{APACrefauthors}%
+Zhang, M.%
+, Pastore, E.%
+, Matta, A.%
+\BCBL {}\ \BBA {} Alfieri, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Buffer Allocation Problem in production flow lines: a
+  new Benders decomposition based exact solution approach} {Buffer allocation
+  problem in production flow lines: a new benders decomposition based exact
+  solution approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{under review}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
