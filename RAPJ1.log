@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.26)  22 JUL 2020 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.26)  24 JUL 2020 16:02
 entering extended mode
 **./RAPJ1.tex
 (RAPJ1.tex
@@ -918,25 +918,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 {C:/Users/myraz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 66.
+(Font)              size <5> substituted on input line 71.
 
 [2]
-Overfull \hbox (14.2381pt too wide) in paragraph at lines 82--92
+Overfull \hbox (14.2381pt too wide) in paragraph at lines 87--97
 [][] 
  []
 
 [3]
-<Figures/EventSimAlgo.png, id=185, 610.4406pt x 442.2924pt>
+<Figures/EventSimAlgo.png, id=183, 610.4406pt x 442.2924pt>
 File: Figures/EventSimAlgo.png Graphic file (type png)
 <use Figures/EventSimAlgo.png>
-Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 119.
+Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 124.
 (pdftex.def)             Requested size: 244.80249pt x 177.366pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (128.55864pt too wide) in paragraph at lines 161--170
+Overfull \hbox (128.55864pt too wide) in paragraph at lines 166--175
 [][]
  []
 
@@ -948,32 +948,32 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.180 \begin{eqnarray}
+l.185 \begin{eqnarray}
                        <./Figures/EventSimAlgo.png>] [5pdfTeX warning (ext4): d
 estination with the same identifier (name{table.1}) has been already used, dupl
 icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \end{eqnarray}
+l.196 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \end{eqnarray}
+l.196 \end{eqnarray}
                     ]
-Overfull \hbox (1.31549pt too wide) in alignment at lines 200--209
+Overfull \hbox (1.31549pt too wide) in alignment at lines 205--214
  [][][] []
  []
 
 [6] [7]
 File: Figures/EventSimAlgo.png Graphic file (type png)
 <use Figures/EventSimAlgo.png>
-Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 276.
+Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 281.
 (pdftex.def)             Requested size: 326.40125pt x 236.4925pt.
 
-Overfull \hbox (80.1409pt too wide) in paragraph at lines 292--306
+Overfull \hbox (80.1409pt too wide) in paragraph at lines 297--311
 [][]
  []
 
@@ -985,21 +985,21 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.316 \end{eqnarray}
+l.321 \end{eqnarray}
                     ] [9pdfTeX warning (ext4): destination with the same identi
 fier (name{table.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.332 \end{eqnarray}
+l.337 \end{eqnarray}
                     ] [10] [11]
-<Figures/merge.png, id=262, 921.6834pt x 488.5452pt>
+<Figures/merge.png, id=260, 921.6834pt x 488.5452pt>
 File: Figures/merge.png Graphic file (type png)
 <use Figures/merge.png>
-Package pdftex.def Info: Figures/merge.png  used on input line 426.
+Package pdftex.def Info: Figures/merge.png  used on input line 431.
 (pdftex.def)             Requested size: 367.19751pt x 194.63934pt.
 
-Overfull \hbox (47.07156pt too wide) in paragraph at lines 431--446
+Overfull \hbox (47.07156pt too wide) in paragraph at lines 436--451
 [][]
  []
 
@@ -1008,19 +1008,19 @@ Overfull \hbox (47.07156pt too wide) in paragraph at lines 431--446
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.477 \end{eqnarray}
+l.482 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.477 \end{eqnarray}
+l.482 \end{eqnarray}
                      <./Figures/merge.png>]
 Overfull \vbox (6.15665pt too high) has occurred while \output is active []
 
 
 [13]
-Overfull \hbox (58.33966pt too wide) in paragraph at lines 496--511
+Overfull \hbox (58.33966pt too wide) in paragraph at lines 501--516
 [][]
  []
 
@@ -1029,29 +1029,29 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.516 \newpage
+l.521 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name
 {table.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.516 \newpage
+l.521 \newpage
               ] [15]
 
 Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
- on input line 538.
+ on input line 543.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 542.
+put line 547.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (RAPJ1.bbl [16]) [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 589.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 589.
  (RAPJ1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 589.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 589.
 Package rerunfilecheck Info: File `RAPJ1.out' has not changed.
 (rerunfilecheck)             Checksum: A54BDC7C303BD4D05F72FDD055B57FEF;1405.
 
@@ -1059,16 +1059,16 @@ Package rerunfilecheck Info: File `RAPJ1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 584.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 589.
  ) 
 Here is how much of TeX's memory you used:
  20114 strings out of 492484
- 364885 string characters out of 3131051
+ 364945 string characters out of 3131051
  457355 words of memory out of 3000000
  23925 multiletter control sequences out of 15000+200000
  10889 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,83p,1587b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,12n,83p,1487b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
@@ -1086,9 +1086,9 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on RAPJ1.pdf (17 pages, 454827 bytes).
+Output written on RAPJ1.pdf (17 pages, 454695 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
+ 396 PDF objects out of 1000 (max. 8388607)
  118 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
