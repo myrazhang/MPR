@@ -84,6 +84,33 @@ Chan, W\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Law%
+, Kelton%
+\BCBL {}\ \BBA {} Kelton%
+}{%
+Law%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+law2000simulation}
+\APACinsertmetastar {%
+law2000simulation}%
+\begin{APACrefauthors}%
+Law, A\BPBI M.%
+, Kelton, W\BPBI D.%
+\BCBL {}\ \BBA {} Kelton, W\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Simulation modeling and analysis} {Simulation modeling and
+  analysis}\ (\BVOL~3).
+\newblock
+\APACaddressPublisher{}{McGraw-Hill New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Matta%
 }{%
 Matta%

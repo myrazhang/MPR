@@ -63,6 +63,207 @@ The application of MPR-based simulation optimization approaches is usually found
 
 %To extend the application of the MPR-based simulation optimization approaches, there is a need of modeling approach to translating DES into MPR under general settings.
 
+The rest of the paper is organized as follows. 
+
+\section{Event-scheduling worldview of DES } \label{sec:SimAlgo}
+
+The event-scheduling approach is the logic behind all major simulation software and used by people when programming their own model with general purpose languages \cite{law2000simulation}. The logic is briefly shown in Figure \ref{Fig:SimAlgo}. The fundamental elements of the algorithm is system state and events. The system state is a collection of state variables to describe the system at a particular time. An event execution leads to the change of system state, the events of the same type change the system state with the same function. The event list contains the scheduled but not executed events together with occurring times. When simulation is launched, the system state and the event list is initialized with user-defined values, and the simulation clock is set to zero. The event with the earliest occurring time in the event list will be picked to execute, and the system evolves into a new state together with the simulation clock. New state may enable to schedule new events, i.e., adding new event executions to the event list. Event cancellation may also occur, i.e., removing some event executions from the event list. There is usually a delay between the scheduling time and the execution time of the event, but the delay is equal to zero when necessary. The algorithm will terminate with certain conditions. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Figures/EventSimAlgo.png}
+	\caption{Event-scheduling simulation algorithm.}
+	\label{Fig:SimAlgo}
+\end{figure}
+
+\section{Mathematical programming representation of DES}
+In this section, we introduce a routined approach to translate DES into MPR. The proposed approach is applicable when the DES satisfies several conditions, and we first describe those conditions. The formulation approach is presented afterwards. 
+
+\subsection{Conditions}
+
+Section \ref{sec:SimAlgo} describes the event-scheduling algorithm for DES. To apply the approach proposed in this work, the following conditions must be satisfied.
+
+
+\begin{enumerate}
+	\item State variables are integer.
+	\item For all event $e^{\xi}$ of type $\xi$, the \textit{scheduling condition} are in the form of $a^{\xi}_s\le s \le b^{\xi}_s$ for certain state variable $s$, and combined with logic operator ``AND" when multiple state variables are involved, where $a^{\xi,s}$ and $b^{\xi,s}$ are given.
+	%\item The scheduling condition of an event is independent of the history and not changed along time.% (It could be possible to define more state variables in case of history dependence and time-variant scheduling conditions.)
+	%\item An event execution of $e^{\xi}$ leads to (integer) increment or decrement equal to $\Delta^{\xi}_s$ of certain state variables $s$, and $\Delta^{\xi}_s$ is not changed along time. (A direct evaluation can be modeled in this way.)
+	\item The delay between scheduling and execution time of an event $e^{\xi}$ are independent and identically distributed random variables. %(\textit{This point is different from ERG. In ERG, the delay is dependent on the edge, i.e, a couple of events, but I consider delay dependent on a single event.})
+	\item When more than one events in the event list have the same execution time as the earliest execution time, the system state, the event list and the number of past executions of each event type are independent of the sequence of execution when the simulation clock is advanced.
+	\item Simulation terminates when the number of execution of each event $e^{\xi}$ reaches $N^{\xi}$, which is known before launching the simulation. 
+
+\end{enumerate}
+
+Integer state variables, such as buffer level, idle servers, widely exist in practical simulation models. Moreover, integer variables include binary variables, which is a powerful tool in modeling the natural behavior and control of the system. The second condition is the most strict condition to satisfy. However, if one model does not satisfy this condition, more binary variables could be introduced to make it satisfied. As for the third condition, if the delay is not I.I.D. random variate, it should be splitted into several events so that each event has I.I.D delay. For instance, if the distribution service time depends on the job type, the event of \textit{finish} a job should be splitted so that each job type is represented by one event. The forth condition saying that the execution time is the only attribute of priority for the event executions in the event list. One can specify the priority in scheduling stage, instead of execution stage. The last condition specifies the termination condition of the DES.
+
+\subsection{Mathematical programming model}
+
+The MPR represents the dynamics of the simulated system. Specifically, event scheduling time, event execution time and state variable changes along the simulation time line can all be seen in the MPR as decision variables. The $i$-th scheduling time and the $i$-th execution time of event $e^{\xi}$ is denoted by $e^{\xi,0}_{i}$ and $e^{\xi,1}_{i}$ respectively. $\mathcal{E}_k$ denotes the time of the $k$-th execution of any event type, and the simulation clock is initialized as zero with $\mathcal{E}_k = 0$. $e^{\xi,0}_{i}$, $e^{\xi,1}_{i}$ and $\mathcal{E}_k$ are all real-valued. We use $u^s_k$ to denote the value of state variable $s$ just after the $k$-th execution, i.e., just after $\mathcal{E}_k$. The domain of variable $u^s_k$ should be integer. The initial system state is given as $u^s_0$. Some binary variables are also used in the MPR, but they are introduced when it appears in some constraints. 
+
+To implement the event-schedule algorithm, the condition to schedule it, the distribution of the delay between scheduling and execution, the state variable changes upon execution and the canceled  events of each event type should be provided. In the event list, multiple executions of the same event type are allowed to coexist. For instance, in a G/G/m queue system, when all the servers are occupied, there are $m$ executions of departure event in the event list. The number of coexisting executions $\alpha^{\xi}$ of the each event type $e^{\xi}$ is also mandatory to develop the MPR. 
+
+The first group of constraints, denoted by group A, is the constraints binding $e^{\xi,1}_i$ and $\mathcal{E}_k$. Binary variables $w^{\xi}_{i,k}$ are used, and $e^{\xi,1}_i$ and $\mathcal{E}_k$ are binded if $w^{\xi}_{i,k}$ is equal to one, as shown in constraints (A1) and (A2). Constraints (A3) and (A4) states that each $e^{\xi,1}_i$ can be binded to one and only one $\mathcal{E}_k$. Constraints (A5) imply that the index executions of the same event type is sequenced along with the index of $\mathcal{E}_k$.
+
+\begin{eqnarray}
+e^{\xi,1}_i-\mathcal{E}_k\ge M(w^{\xi}_{i,k}-1) & \forall\ \xi,i,k&(A1)\nonumber\\
+\mathcal{E}_k-e^{\xi,1}_i\ge M(w^{\xi}_{i,k}-1) & \forall\ \xi,i,k&(A2)\nonumber\\
+\sum_{k} w^{\xi}_{i,k} =1& \forall\ \xi,i&(A3)\nonumber\\
+\sum_{\xi,i} w^{\xi}_{i,k} =1& \forall\ k&(A4)\nonumber\\
+\sum_{k} kw^{\xi}_{i+1,k} - \sum_{k} kw^{\xi}_{i,k} \ge 1& \forall\ \xi,i&(A5)\nonumber
+\end{eqnarray}
+
+The second group of constraints, denoted by group B, is the constraints binding $e^{\xi,0}_i$ and $e^{\xi,1}_i$. If the event is a single-execution event, i.e., the maximal number of executions coexisting in the event list is equal to one, the $i$-th execution $e^{\xi,1}_i$ is binded to the $i$-th scheduling with a delay $t^{\xi}_{i}$, as in constraints (B1). 
+\begin{eqnarray}
+e^{\xi,1}_{i} - e^{\xi,0}_{i} = t^{\xi}_{i} & \forall \xi, i=1,...,N^{\xi}&(B1)
+\end{eqnarray}
+
+If event $e^{\xi}$ is a multiple-execution event, i.e., the maximal number of executions coexisting in the event list is equal to $\alpha^{\xi}$, which is at least two, the a late scheduled execution could overtake an early scheduled one, since the delay time between scheduling and execution is random variate. Thus, we introduce the binary variable $y^{\xi}_{i,i^{'}}$, and the $i$-th scheduling of event $e^{\xi}$ is the $i^{'}$-th execution when $y^{\xi}_{i,i^{'}}$ is equal to one, as in constraints (B2) and (B3). Constraints (B4) and (B5) show that each $e^{\xi,1}_{i^{'}}$ can be binded to one and only one $e^{\xi,0}_{i}$. Constraints (B6) imply that the $i$-th scheduling cannot be binded to an execution earlier than the $(i+\alpha^{\xi})$-th, since at most $\alpha^{\xi}$ executions are allowed to coexist in the list. For the same reason, constraints (B7) state that $i^{'}$-th execution cannot be binded to the scheduling later than the $(i^{'}-\alpha^{\xi})$-th.
+\begin{eqnarray}
+e^{\xi,1}_{i^{'}} - e^{\xi,0}_{i} \ge t^{\xi}_{i} +M(y^{\xi}_{i,i^{'}}-1) & \forall \xi, i, i ^{'}=1,...,N^{\xi}&(B2)\nonumber\\
+e^{\xi,0}_{i} - e^{\xi,1}_{i^{'}}  \ge -t^{\xi}_{i} +M(y^{\xi}_{i,i^{'}}-1) & \forall \xi, i, i ^{'}=1,...,N^{\xi}&(B3)\nonumber\\
+\sum_{i=1}^{N^{\xi}} y^{\xi}_{i,i^{'}} = 1										& \forall\ \xi, i^{'}=1,...,N^{\xi} &(B4)\nonumber\\
+\sum_{i^{'}=1}^{N^{\xi}} y^{\xi}_{i,i^{'}} = 1 									& \forall\ \xi,i=1,...,N^{\xi}&(B5)\nonumber\\
+\sum_{i^{'}=i+\alpha^{\xi}}^{N^{\xi}} y^{\xi}_{i,i^{'}}=0					& \forall\ \xi,\ i=1,...,N^{\xi}-\alpha^{\xi}&(B6)\nonumber\\
+\sum_{i=1}^{i^{'}-\alpha^{\xi}} y^{\xi}_{i,i^{'}}=0							&\forall\ \xi,\ i^{'}=\alpha^{\xi}+1, ..., N^{\xi}&(B7)\nonumber
+\end{eqnarray}
+
+
+The third group of constraints, denoted by grtroup C, state that event $e^{\xi}$ can be scheduled right after $\mathcal{E}_k$ if the condition for scheduling an event $e^{\xi}$ is true. We first introduce binary variables $x^{\xi}_{i,k}$, and $x^{\xi}_{i,k}$ equal to one represents that the $i$-th scheduling of event $e^{\xi}$ is enabled by $\mathcal{E}_k$, as in constraints (C1) and (C2). Constraints (C3) show that each scheduling is enabled by one and only one $\mathcal{E}_{k}$. As stated in Section 3.1, the condition for scheduling event $e^{\xi}$ is a set of inequalities in the form of $a^{\xi}_s\le s \le b^{\xi}_s$ combined with operator ``AND". Binary variables $z^{\xi}_{k}$ are used to verify that condition, and if $z^{\xi}_{k}$ is equal to one, the condition is true, as in constraints (C4) and (C5). Moreover, a set of binary variables $v^{\xi,s,a}_k$ and $v^{\xi,s,b}_k$ are used to verify if the condition is false. Specifically, constraints (C6) state that if  $v^{\xi,s,a}_k$ is equal to one, $u^s_k$ will be smaller than $a^{\xi,s}$, and hence, the inequality $a^{\xi}_s\le s$ is violated. Similar for constraints (C7), if $v^{\xi,s,b}_k$ is equal to one, $s \le b^{\xi}_s$ is violated. Constraints (C8) imply that $z^{\xi}_{k}$ is equal to one if and only if $a^{\xi}_s\le s \le b^{\xi}_s$, and that $z^{\xi}_{k}$ is equal to zero if and only if $a^{\xi}_s-1\ge s$ or  $ s \ge b^{\xi}_s+1$. Constraints (C9) state that if the condition to schedule $e^{\xi}$ is true, an execution of $e^{\xi}$ has to be added into the event list. Constraints (C10) show that the index of scheduling is sequenced along with the index of event execution $\mathcal{E}_{k}$. Constraints (C11) imply that the $(i+\alpha^{\xi},k)$-th scheduling of event $e^{\xi}$ must occur after the $i$-th execution. 
+
+For events with multiple executions, several rules should be follow. First, multiple execution events should all have positive delay. In fact, when the delay between scheduling and execution of an event is zero, multiple executions is equivalent to sequential scheduling a single-execution event. For the event $e^{\xi}$ with strictly positive delay and multiple executions, the following routine should be followed to formulate a correct MPR. The number of executions in the event list should be treated as state variable, and an event ${e}^{\tilde{\xi}}$ that updates the number of executions should be included artificially, and this event should have the same scheduling condition as $e^{\xi}$ and zero delay. However, the reason is not to limit the number of executions, but to allow scheduling of multiple executions, instead. According to constraints (C9), at most one execution can be scheduled after execution of $\mathcal{E}_{k}$. To schedule multiple executions, we use the artificial event to make sure the number of executions of event $e^{\xi}$ can reach $\alpha^{\xi}$ if the condition to schedule is satisfied. Constraints (C12) states that the $i$-th scheduling of event $e^{\xi}$ and ${e}^{\tilde{\xi}}$ should be enabled by the same execution.
+\begin{eqnarray}
+e^{\xi,0}_i-\mathcal{E}_{k} \ge M(x^{\xi}_{i,k}-1)& \forall\ \xi,k,i&(C1)\nonumber\\
+\mathcal{E}_{k} -e^{\xi,0}_i\ge M(x^{\xi}_{i,k}-1)& \forall\ \xi,k,i&(C2)\nonumber\\
+\sum_{k} x^{\xi}_{i,k} =1& \forall\ \xi,i&(C3)\nonumber\\
+u^s_k - a^{\xi,s} \ge M(z^{\xi}_{k}-1)& \forall\ \xi, k,s&(C4)\nonumber\\
+b^{\xi,s} - u^s_k \ge M(z^{\xi}_{k}-1)& \forall\ \xi, k,s&(C5)\nonumber\\
+( a^{\xi,s}-1) - u^s_k \ge M(v^{\xi,s,0}_k-1) & \forall\ \xi,k,s &(C6)\nonumber\\
+u^s_k -  (b^{\xi,s}+1) \ge M(v^{\xi,s,1}_k-1) & \forall\ \xi,k,s &(C7)\nonumber\\
+1 - z^{\xi}_{k} \le \sum_{s\in S^{\xi}} v^{\xi,s,0}_k + \sum_{s\in S^{\xi}} v^{\xi,s,1}_k&\forall\ \xi,k&(C8)\nonumber\\
+\sum_{i=1}^{N^{\xi}}x^{\xi}_{i,k} = z^{\xi}_k&\forall\ \xi,k&(C9)\nonumber\\
+\sum_{k} kx^{\xi}_{i+1,k} - \sum_{k} kx^{\xi}_{i,k} \ge 1& \forall\ \xi,i&(C10)\nonumber\\
+\sum_{k} kx^{\xi}_{i+\alpha^{\xi},k} - \sum_{k} kw^{\xi}_{i,k} \ge 0& \forall\ \xi,i&(C11)\nonumber\\
+\sum_{k} k(x^{\xi}_{i,k} - x^{\tilde{\xi}}_{i,k} ) = 0& \forall\ \xi,i&(C12)\nonumber
+\end{eqnarray}
+
+The constraints (D1) represent the evolution of state variables. If the $\mathcal{E}_{k}$ is of event type $\xi$, the state variable $s$ is changed by function $f^{\xi}(u^s_{k-1})$.
+\begin{eqnarray}
+u^{s}_{k} =  \sum_{\xi} \sum_{i=1}^{N^{\xi}} w^{\xi}_{i,k} f^{\xi}(u^s_{k-1})& \forall\ s,k&(D1)\nonumber
+\end{eqnarray}
+
+If all the events changes the state variables with a fixed increment or decrement, constraints (D1) will be changed to (D2), which is linear constraints, and the MPR is an MILP. 
+ \begin{eqnarray}
+ u^{s}_{k} = u^s_{k-1} + \sum_{\xi} \sum_{i=1}^{N^{\xi}} w^{\xi}_{i,k} \Delta^{\xi,s}& \forall\ s,k&(D2)\nonumber
+ \end{eqnarray}
+
+Constraints (E1) show that the $\mathcal{E}_{k}$ are temporally sequenced with index $k$.
+\begin{eqnarray}
+\mathcal{E}_{k}-\mathcal{E}_{k-1}\ge 0&\forall\ k&(E1)\nonumber
+\end{eqnarray}
+
+
+With the constraints above, there is a unique feasible solution in terms of event occurring times (solution of the binary variables could be multiple in case of multiple simultaneous events). Thus, the objective can be arbitrarily. 
+
+\section{Examples}
+
+In this section, we present several examples. For each example, we introduce the necessary information to be provided, and then the derivation of MPR is trivial since the approach proposed in Section 3 is well routined.
+
+\subsection{Single server merge}
+
+The first example we model is a queueing system composed of three servers within a merge architecture. Jobs arrive at server 1 or server 2, and the buffer in front of the two servers have infinite capacity. We assume that all jobs arrive at time zero. After processing a job, server 1 or 2 can release the job to the finite buffer in front of server 3, if the buffer is not full. Thus, the blocking policy is block-after-service. If there is only one space available in the buffer, and both server 1 and 2 are holding a finished job, server 1 has higher priority to release. After processing a job, server 3 releases the job from the system immediately. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/merge.png}
+	\caption{Example: single server merge.}
+\end{figure}
+
+We first define the state variables. Variable $m^i$ and $q$ represents the state of server $i$ and the available space in buffer 3 respectively. For $i$ equal to 1 or 2, the server have three states, namely \textit{idle}, \textit{working} and \textit{holding a finished job}, and each state refers to $m^i$ equal to $0$, $1$ and $2$ respectively. Server 3 has only two states, \textit{idle} and \textit{working}, and refers to $m^3$ equal to $0$ and $1$, respectively. The servers are initially idle, and buffer 3 is empty, i.e., $q=Q$ where $Q$ denotes the capacity of buffer 3.
+
+We then define the events composing the DES as shown in Table \ref{tab:merge}. Event $e^{s,1}$ represents the starting of service of server 1, scheduling of such event is enabled if server 1 is idle, i.e., $m^1\le 0$. Executing $e^{s,1}$ will increase state variable $m^1$ from 0 to 1. Event $e^{f,1}$ represents the finishing of server 1, scheduling of it requires that server 1 is working. The delay between scheduling and execution is random variate $t^1$, which is the service time. Executing $e^{f,1}$ makes the server hold a finished job and hence increase state variable $m^1$ from 1 to 2. Events $e^{s,2}$ and $e^{f,2}$ are similar with events $e^{s,1}$ and $e^{f,1}$. The departure event of server 1 and server 2 differ from each other. As long as there is a space available in buffer 3 and server 1 holds a finished job, an departure event of server 1 $e^{d,1}$ can be scheduled. For the departure event of server 2 $e^{d,2}$, one more condition to verify is that server 1 does not hold a finished job due to the priority rule. The execution of departure event will occupy an available space in buffer 3, and make the server idle. The start event of server 3 $e^{s,2}$ is enabled if it is idle and there is at least one job waiting in buffer 3. After execution of $e^{s,3}$, the server becomes busy and the available space in buffer 3 is added by one. The departure event $e^{d,3}$ is can be scheduled if server 3 is working with delay $t^3$, which is a random variate representing the service time of server 3. Execution of  $e^{d,3}$ makes server 3 to be idle. Since all the stations are composed of a single server, the number of coexisting executions of all events is equal to one. 
+
+\begin{table}[h]
+	\begin{tabular}{|llllll|}\hline
+		Variable&Event & Condition to schedule & Delay&$\alpha^{\xi}$& State change\\\hline
+		$e^{s,1}$&Start m1 	& $m^1\le 0$ & $0$&1& $m^1++$ \\\hline
+		$e^{f,1}$&Finish m1 & $1\le m^1\le 1$ 	& $t^1$ &1& $m^1++$\\\hline
+		$e^{d,1}$&Depart m1& $m^1\ge2\ \&\  q\ge 1$&$0$ &1 & $m^1 = m^1-2,\ q--$\\\hline
+		$e^{s,2}$&Start m2 	& $m^2\le 0$ & $0$ &1& $m^2++$ \\	\hline
+		$e^{f,2}$&Finish m2 & $1\le m^2\le 1$ 	& $t^2$ &1 & $m^2++$\\\hline
+		$e^{d,2}$&Depart m2& $m^2\ge2\ \&\ q\ge 1$&$0$  &1& $m^2=m^2-2,\ q--$\\
+		&&$\ m^1\le 1 $ & &&\\\hline
+		$e^{s,3}$& Start m3 & $m^3 \le 0\ \&\ q\le Q-1$&$0$  &1& $m^3++,\ q++$\\\hline
+		$e^{d,3}$& Depart m3 & $m^3 \ge 1$ & $t^3$  &1& $m^3--$\\\hline
+	\end{tabular}
+	\caption{Events to simulate a merge queueing system.}
+	\label{tab:merge}
+\end{table}
+
+
+\subsection{Multi-server merge}
+We now study a multi-server merge queueing system, as shown in Figure \ref{fig:multimerge}. The multi-server merge queue is a generalization of the system presented in Section 4.1, where the number of parallel servers in station 1, 2 and 3 is equal to $s^1$, $s^2$ and $s^3$ respectively. The state variables are changed accordingly. To describe the state of multi-server station $j$, now we need two state variables $g^{j}$ and $h^{j}$ to represent the number of idle servers and number of finished jobs of each the station. The state variable $q$ is used to present the number of available space in buffer 3. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/multimerge.png}
+	\caption{Example: multi-server merge.}
+	\label{fig:multimerge}
+\end{figure}
+
+
+The events composing the DES model are shown in Table \ref{tab:multimerge}. The start event of station 1 and 2 is scheduled when there are at least one empty server, and their execution decreases the number of empty servers by one. The scheduling condition of finish event $e^{f,j}$ is the same as $e^{s,j}$, but its execution will increase the number of finished jobs by one. Event $e^{f,j}$ is a multi-execution event with positive delays, an event to count the number of executions of it should be introduced. However, the event $e^{s,j}$ plays that role and the number of executions in the event list is equal to $(s^j-g^j)$. Similarly with single-server system, the departure of station 1 requires that there is at least one finished job in the station and there is at least one space available in buffer 3, but the departure of station 2 also requires that there is no finished job in station 1. The departure of station 1 and 2 will increase the number of empty servers by one, decrease the number of finished jobs by one and decrease the number of available space by one. As for station 3, the start and departure event can be scheduled if there is at least one empty server and one job in buffer 3. Thus, $e^{s,3}$ is used to count the number executions in the event list of $e^{d,3}$. Execution of $e^{s,3}$ will decrease the number of empty server by one and increase the available space in buffer 3 by one.
+
+\begin{table}[h]
+	\begin{tabular}{|llllll|}\hline
+		Variable&Event & Condition to schedule & Delay&$\alpha^{\xi}$& State change\\\hline
+		$e^{s,1}$&Start 1 	& $1\le g^1$ & $0$&1& $g^1--$ \\\hline
+		$e^{f,1}$&Finish 1 & $1\le g^1$ 	& $t^1$ &$s^1$& $h^1++$\\\hline 
+		$e^{d,1}$&Depart 1& $1\le h^1 \&\  q\ge 1$&$0$ &1 & $g^1++,h^1--,\ q--$\\\hline
+		$e^{s,2}$&Start 2 	& $1\le g^2$ & $0$ &1& $g^2--$ \\	\hline
+		$e^{f,2}$&Finish 2 & $1\le g^2$ 	& $t^2$ &$s^2$ & $h^2++$\\\hline
+		$e^{d,2}$&Depart 2& $1\le h^2\ \&\ q\ge 1\ \&$&$0$  &1&  $g^2++,h^2--,\ q--$\\
+		&&$\ h^1\le 0 $ & &&\\\hline
+		$e^{s,3}$& Start 3 & $1\le g^3\ \&\ q\le Q-1$&$0$  &1& $g^3--,\ q++$\\\hline
+		$e^{d,3}$& Depart 3 & $1\le g^3\ \&\ q\le Q-1$ & $t^3$  &$s^3$& $g^3++$\\\hline
+	\end{tabular}
+	\caption{Events to simulate a multi-server merge queueing system.}
+	\label{tab:multimerge}
+\end{table}
+
+\newpage
+\newpage
+
+MP model of single server merge model:
+\begin{eqnarray}
+\min{\sum_{k}\mathcal{E}_k}\\
+e^{(\xi,j),1}_i - \mathcal{E}_{k}\ge M(w^{\xi,j}_{i,k}-1)&&\xi\in\{s,f,d\}, j\in\{1,2,3\},\forall i,k \\
+\mathcal{E}_{k} - e^{(\xi,j),1}_i\ge M(w^{\xi,j}_{i,k}-1)&&\xi\in\{s,f,d\}, j\in\{1,2,3\},\forall i,k \\
+\sum_{k} w^{\xi,j}_{i,k} =1&& \forall\ \xi\in\{s,f,d\}, j\in\{1,2,3\},i\\
+\sum_{(\xi,j),i} w^{\xi,j}_{i,k} =1&& \forall\ k\\
+\sum_{k} kw^{\xi,j}_{i+1,k} - \sum_{k} kw^{\xi,j}_{i,k} \ge 1&& \forall\  \xi\in\{s,f,d\}, j\in\{1,2,3\},i\\
+e^{s,j,1}_{i} - e^{s,j,0}_{i} \ge 0 && j =1,2,3, \forall \ i\\
+e^{f,j,1}_{i} - e^{f,j,0}_{i} \ge t^j_{i}&& j =1,2, \forall \ i\\
+e^{d,j,1}_{i} - e^{d,j,0}_{i} \ge 0 && j =1,2, \forall \ i\\
+e^{d,3,1}_{i} - e^{d,3,0}_{i} \ge t^3_{i}&&\forall \ i \\
+e^{\xi,j,0}_i-\mathcal{E}_{k} \ge M(x^{\xi,j}_{i,k}-1)&& \forall\ \xi\in\{s,f,d\},j=1,2,3,k,i\\
+\mathcal{E}_{k} -e^{\xi,j,0}_i\ge M(x^{\xi,j}_{i,k}-1)&& \forall\ \xi\in\{s,f,d\},j=1,2,3,k,i\\
+m^j_k=m^j_{k-1} + \sum_{i=1}^{N^{j}} (w^{s,j}_{i,k}  + w^{f,j}_{i,k} - 2w^{d,j}_{i,k})&& j=1,2, \forall\ k\\
+m^3_k=m^3_{k-1} + \sum_{i=1}^{N^{3}} (w^{s,3}_{i,k} - w^{d,3}_{i,k})&&\forall\ k\\
+q_k = q_{k-1} + \sum_{i=1}^{N^{3}} w^{s,3}_{i,k} - \sum_{i=1}^{N^{1}} w^{d,1}_{i,k} - \sum_{i=1}^{N^{2}} w^{d,2}_{i,k}\\
+m^j_k \ge M(z^{s,j}_{k}-1)&& j=1,2,3, \forall \ k\\
+1- m^j_k \ge M(z^{f,j}_{k}-1)&& j=1,2, \forall \ k\\
+m^j_k - 1 \ge M(z^{f,j}_{k}-1)&& j=1,2, \forall \ k\\
+m^j_k - 2 \ge M(z^{d,j}_{k}-1)&& j=1,2, \forall \ k\\
+q_k - 1 \ge M(z^{d,j}_{k}-1)&&  j=1,2, \forall \ k\\
+1 - m^1_k \ge M(z^{d,2}_{k}-1)&& \forall\ k\\
+m^3_k - 1 \ge M(z^{d,3}_{k}-1)&& \forall \ k\\
+(Q-1) - q_k \ge M(z^{s,3}_{k}-1)&& \forall\ k\\
+\sum_{k} x^{\xi,j}_{i,k} =1&& \forall\ \xi\in\{s,f,d\}, j=1,2,3, \forall\ i,k\\
+\sum_{i=1}^{N^{j}}x^{\xi,j}_{i,k} \le z^{\xi,j}_{k}&& \forall\ \xi\in\{s,f,d\}, j=1,2,3, k\\
+\sum_{k} kx^{\xi,j}_{i+1,k} - \sum_{k} kx^{\xi,j}_{i,k} \ge 0 && \forall\ \xi\in\{s,f,d\}, j=1,2,3, i
+\end{eqnarray}
+
 
 \section{Resource allocation problem of queueing systems}
 \subsection{Mathematical programming representation of simulation model}
