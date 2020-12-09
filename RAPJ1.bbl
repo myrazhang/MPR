@@ -220,34 +220,6 @@ Zhang%
 Zhang%
 \ \BBA {} Matta%
 }{%
-{\protect \APACyear {2018}}%
-}]{%
-zhang2018data}
-\APACinsertmetastar {%
-zhang2018data}%
-\begin{APACrefauthors}%
-Zhang, M.%
-\BCBT {}\ \BBA {} Matta, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Data-driven Downtime Bottleneck Detection in Open Flow
-  Lines} {Data-driven downtime bottleneck detection in open flow lines}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {2018 IEEE 14th International Conference on Automation
-  Science and Engineering (CASE)} {2018 ieee 14th international conference on
-  automation science and engineering (case)}\ (\BPGS\ 1513--1518).
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Zhang%
-\ \BBA {} Matta%
-}{%
-Zhang%
-\ \BBA {} Matta%
-}{%
 {\protect \APACyear {2020}}%
 }]{%
 zhang2020models}
