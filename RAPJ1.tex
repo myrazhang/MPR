@@ -32,12 +32,37 @@
 \newcommand{\mengyi}[1]{\textcolor{blue}{#1}}
 \newcommand{\erica}[1]{\textcolor{red}{#1}}
 
-\usepackage{algorithm} 
+%\usepackage{algorithm} 
 \usepackage{algorithmic} 
 \renewcommand{\algorithmicrequire}{ \textbf{Input:}} %Use Input in the format of Algorithm
 \usepackage{soul}
 \usepackage{todonotes}
 \usepackage{lscape}
+
+\usepackage{algorithm,algpseudocode,float}
+\usepackage{lipsum}
+
+\makeatletter
+\newenvironment{breakablealgorithm}
+{% \begin{breakablealgorithm}
+	\begin{center}
+		\refstepcounter{algorithm}% New algorithm
+		\hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+		\renewcommand{\caption}[2][\relax]{% Make a new \caption
+			{\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+			\ifx\relax##1\relax % #1 is \relax
+			\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+			\else % #1 is not \relax
+			\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+			\fi
+			\kern2pt\hrule\kern2pt
+		}
+	}{% \end{breakablealgorithm}
+		\kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+	\end{center}
+}
+\makeatother
+
 
 \begin{document}
 
@@ -46,7 +71,7 @@
 \title{Generation of Mathematical Programming Representation From Discrete-Event Simulation Models}
 \maketitle
 \begin{abstract}
-This work proposes a mathematical programming representation (MPR) of a run of discrete event simulation implemented with event-scheduling logic. The decision variables of the MPR is the event occurring time and the history of the state changes of the system. To derive the MPR, state variables and events of the DES should be provided, and an automatic MPR generation procedure can be found in an online repository. The MPR of DES is a foundation of developing white-box simulation optimization algorithms. The equivalence of the solution of the proposed mathematical programming model and the simulation run using the same sample paths is validated with several cases, which implies the correctness of the proposed approach. 
+This work proposes a mathematical programming representation (MPR) of a run of discrete event simulation (DES) implemented with event-scheduling logic. The MPR of DES is a foundation of developing white-box simulation optimization algorithms. The decision variables of the MPR is the event occurring time and the history of the state changes of the system, and the constraints represents the system dynamics. The equivalence of the solution of the proposed mathematical programming model and the simulation run using the same sample paths is validated with several cases, which implies the correctness of the proposed approach. An automatic MPR generation procedure can be found in the online repository at https://github.com/myrazhang/MRPofDES, which requires only the set of state variables and the set of events of the DES model.
 \end{abstract}
 
 \section{Introduction}
@@ -799,7 +824,7 @@ u^{arr}_k,u^{fl}_k,u^{frp}_k,u^{g}_k\in\{0,1\},\ u^{q}_k\in\{0,...,Q\}\nonumber
 
 \section{Discussion}\label{sec:discussion}
 
-Given the set of state variables, the set of zero-delay events, the sets of positive-delay events, as in Tables \ref{tab:ggm_1}, \ref{tab:merge}, \ref{tab:failure}, and also $K$ and $N^{\xi}$, the total number of  iterations and the maximum number of executions of each event respectively, the implementation of the proposed approach is trivial. Appendix I provides the pseudo code of the proposed approach. As can be seen, the algorithm is composed of several for-loops only.  
+Given the set of state variables, the set of zero-delay events, the sets of positive-delay events, as in Tables \ref{tab:ggm_1}, \ref{tab:merge}, \ref{tab:failure}, and also $K$ and $N^{\xi}$, the total number of  iterations and the maximum number of executions of each event respectively, the implementation of the proposed approach is trivial. Appendix I provides the pseudo code of the proposed approach. As can be seen, the algorithm is composed of several for-loops only. The java source code of an automatic MPR generation procedure can be found online at https://github.com/myrazhang/MRPofDES.
 
 The MPR proposed in this work differs from the state-of-the-art MPR \citep{chan2008optimization} in the objective function. In the state-of-the-art formulation, the constraints represent the event triggering relationships, i.e., the execution time of the triggered event must be later than that of the triggering event with a delay, which is a sample from a predefined random variate. Hence, the objective function must be the minimization of the execution time of all the events, so that all the events are executed as soon as possible. In this work, the constraints represent that once the condition to schedule or cancel an event is true, the event must be scheduled or canceled, i.e., the logic that events must be executed as soon as possible is forced by constraints. Thus, the objective function can be defined in a more flexible way. 
 
@@ -819,11 +844,16 @@ This work proposes an MPR of a sample path of a DES model that satisfies certain
 
 \newpage
 \section*{Appendix I: a note on implementation}
-aaa
-\begin{algorithm}
+\begin{breakablealgorithm}
 	\label{algo:implement_MPR}
 	\caption{Implementation.}
 	\begin{algorithmic}[1]
+		\REQUIRE ~~\\
+		Set of events $\mathbb{X}$.\\
+		Initial system state: $\textbf{s}_0$.\\
+		Simulation length: number of iterations $K$. \\
+		Execution number of event $\xi$: $N^{\xi}$
+		\STATE Initialization (A6) (E7)
 		\FOR {$\xi\in\mathbb{X}$ }
 		\FOR{$i=1\ to\ N^{\xi}$}
 		\FOR {$k=1\ to\ K$}
@@ -840,36 +870,42 @@ aaa
 		\STATE (A4) (A5)
 		\ENDFOR
 		
-		\FOR {$\xi\in\mathbb{X}^{0}$}
+		\FOR {each zero-delay event $\xi\in\mathbb{X}$}
 		\FOR {$k=0\ to\ K-1$}
 		\FOR {$s\in\mathbb{S}^{\xi}$}
 		\STATE (B3) (B4) (B5) (B6)
 		\ENDFOR
 		\STATE (B7) (B9) (B10)
 		\ENDFOR
-		\FOR{$i=1\ to\ N^{\xi}$}
-		\STATE (B11) (E1)
-		\ENDFOR	
 		\STATE (B8)
+		\FOR{$i=1\ to\ N^{\xi}$}
+		\STATE (B11)
+		\ENDFOR	
 		\ENDFOR
 		
-		\FOR {$\xi\in\mathbb{X}^{+}$}
-		\FOR{$i=1\ to\ N^{\xi}$}
-		\STATE (B12)
-		\ENDFOR	
+		\FOR {each positive-delay event $\xi\in\mathbb{X}$}
 		\FOR {$k=0\ to\ K-1$}
+		\FOR{$i=1\ to\ N^{\xi}$}
+		\STATE (B12) (D6) (D7) (D8) (D9) (D10) (D11) (D12) (D13) (D14)
+		\ENDFOR	
 		\FOR{$s\in\mathbb{S}^{\bar{\xi}}$}
 		\STATE (D1) (D2) (D3) (D4)
 		\ENDFOR	
-		\FOR{$i=1\ to\ N^{\xi}$}
-		\STATE (D6) (D7) (D8) (D9) (D10) (D11) (D12) (D13) (D14)
-		\ENDFOR
-		\STATE (D5) (E2) (E3) (E4)
+		\STATE (D5)
 		\ENDFOR	
 		\ENDFOR
-		\STATE (A6)
+		
+		\FOR {$k=0\ to\ K-1$}
+		\FOR {$s\in\mathbb{S}/\mathbb{S}^c$}
+		\STATE (E1)
+		\ENDFOR
+		\FOR {$s\in\mathbb{S}^c$}
+		\STATE (E2) (E3) (E4)
+		\ENDFOR
+		\ENDFOR
+		
 	\end{algorithmic}
-\end{algorithm}
+\end{breakablealgorithm}
 
 
 

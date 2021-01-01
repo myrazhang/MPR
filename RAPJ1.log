@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.26)  1 JAN 2021 00:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.26)  1 JAN 2021 16:51
 entering extended mode
 **./RAPJ1.tex
 (RAPJ1.tex
@@ -430,27 +430,12 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithm.sty"
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count132
-\float@exts=\toks32
-\float@box=\box30
-\@float@everytoks=\toks33
-\@floatcapt=\box31
-)
-\@float@every@algorithm=\toks34
-\c@algorithm=\count133
-)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count134
-\c@ALC@line=\count135
-\c@ALC@rem=\count136
-\c@ALC@depth=\count137
+\c@ALC@unique=\count132
+\c@ALC@line=\count133
+\c@ALC@rem=\count134
+\c@ALC@depth=\count135
 \ALC@tlm=\skip64
 \algorithmicindent=\skip65
 )
@@ -463,23 +448,23 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
-\XKV@toks=\toks35
-\XKV@tempa@toks=\toks36
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count138
+\XKV@depth=\count136
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks37
+\pgfutil@everybye=\toks34
 \pgfutil@tempdima=\dimen156
 \pgfutil@tempdimb=\dimen157
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
-\pgfutil@abb=\box32
+\pgfutil@abb=\box30
 ("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -495,12 +480,12 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks38
-\pgfkeys@temptoks=\toks39
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks40
+\pgfkeys@tmptoks=\toks37
 ))
 \pgf@x=\dimen158
 \pgf@y=\dimen159
@@ -514,14 +499,14 @@ x"
 \pgf@yd=\dimen167
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count139
-\c@pgf@countb=\count140
-\c@pgf@countc=\count141
-\c@pgf@countd=\count142
-\t@pgf@toka=\toks41
-\t@pgf@tokb=\toks42
-\t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count143
+\c@pgf@counta=\count137
+\c@pgf@countb=\count138
+\c@pgf@countc=\count139
+\c@pgf@countd=\count140
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count141
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -537,8 +522,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count144
-\pgfsyssoftpath@bigbuffer@items=\count145
+\pgfsyssoftpath@smallbuffer@items=\count142
+\pgfsyssoftpath@bigbuffer@items=\count143
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.t
 ex"
@@ -550,11 +535,11 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen168
-\pgfmath@count=\count146
-\pgfmath@box=\box33
-\pgfmath@toks=\toks44
-\pgfmath@stack@operand=\toks45
-\pgfmath@stack@operation=\toks46
+\pgfmath@count=\count144
+\pgfmath@box=\box31
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.
@@ -574,7 +559,7 @@ ex")
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count147
+\c@pgfmathroundto@lastzeros=\count145
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -610,10 +595,10 @@ File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 "
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box34
-\pgf@hbox=\box35
-\pgf@layerbox@main=\box36
-\pgf@picture@serial@count=\count148
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count146
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.co
 de.tex"
@@ -646,8 +631,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen192
-\pgf@sys@shading@range@num=\count149
-\pgf@shadingcount=\count150
+\pgf@sys@shading@range@num=\count147
+\pgf@shadingcount=\count148
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.te
 x"
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -655,7 +640,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.t
 ex"
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box37
+\pgfexternal@startupbox=\box35
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 "
@@ -674,7 +659,7 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.
 tex"
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box38
+\pgfnodeparttextbox=\box36
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -698,8 +683,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -707,7 +692,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count151
+\pgf@plot@mark@count=\count149
 \pgfplotmarksize=\dimen197
 )
 \tikz@lastx=\dimen198
@@ -718,22 +703,22 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@lastmovetoy=\dimen259
 \tikzleveldistance=\dimen260
 \tikzsiblingdistance=\dimen261
-\tikz@figbox=\box39
-\tikz@figbox@bg=\box40
-\tikz@tempbox=\box41
-\tikz@tempbox@bg=\box42
-\tikztreelevel=\count152
-\tikznumberofchildren=\count153
-\tikznumberofcurrentchild=\count154
-\tikz@fig@count=\count155
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count150
+\tikznumberofchildren=\count151
+\tikznumberofcurrentchild=\count152
+\tikz@fig@count=\count153
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count156
-\pgfmatrixcurrentcolumn=\count157
-\pgf@matrix@numberofcolumns=\count158
+\pgfmatrixcurrentrow=\count154
+\pgfmatrixcurrentcolumn=\count155
+\pgf@matrix@numberofcolumns=\count156
 )
-\tikz@expandcount=\count159
+\tikz@expandcount=\count157
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarytopaths.code.tex"
@@ -756,51 +741,276 @@ tex"
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count160
-\calc@Bcount=\count161
+\calc@Acount=\count158
+\calc@Bcount=\count159
 \calc@Adimen=\dimen262
 \calc@Bdimen=\dimen263
 \calc@Askip=\skip66
 \calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count162
+\calc@Ccount=\count160
 \calc@Cskip=\skip68
 )
-\c@@todonotes@numberoftodonotes=\count163
+\c@@todonotes@numberoftodonotes=\count161
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (RAPJ1.aux)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count162
+\float@exts=\toks46
+\float@box=\box41
+\@float@everytoks=\toks47
+\@floatcapt=\box42
+)
+\@float@every@algorithm=\toks48
+\c@algorithm=\count163
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count164
+\c@ALG@rem=\count165
+\c@ALG@nested=\count166
+\ALG@tlm=\skip69
+\ALG@thistlm=\skip70
+\c@ALG@Lnr=\count167
+\c@ALG@blocknr=\count168
+\c@ALG@storecount=\count169
+\c@ALG@tmpcounter=\count170
+\ALG@tmplength=\skip71
+
+! LaTeX Error: Command \algorithmic already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112    }
+          %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2019-11-07 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
+Package: expl3 2019-11-07 L3 programming layer (code)
+\c_max_int=\count171
+\l_tmpa_int=\count172
+\l_tmpb_int=\count173
+\g_tmpa_int=\count174
+\g_tmpb_int=\count175
+\l__seq_internal_a_int=\count176
+\l__seq_internal_b_int=\count177
+\g__kernel_prg_map_int=\count178
+\c__ior_term_noprompt_ior=\count179
+\c_log_iow=\count180
+\l_iow_line_count_int=\count181
+\l__iow_line_target_int=\count182
+\l__iow_one_indent_int=\count183
+\l__iow_indent_int=\count184
+\c_zero_dim=\dimen264
+\c_max_dim=\dimen265
+\l_tmpa_dim=\dimen266
+\l_tmpb_dim=\dimen267
+\g_tmpa_dim=\dimen268
+\g_tmpb_dim=\dimen269
+\c_zero_skip=\skip72
+\c_max_skip=\skip73
+\l_tmpa_skip=\skip74
+\l_tmpb_skip=\skip75
+\g_tmpa_skip=\skip76
+\g_tmpb_skip=\skip77
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count185
+\l__intarray_loop_int=\count186
+\c__intarray_sp_dim=\dimen270
+\g__intarray_font_int=\count187
+\c__fp_leading_shift_int=\count188
+\c__fp_middle_shift_int=\count189
+\c__fp_trailing_shift_int=\count190
+\c__fp_big_leading_shift_int=\count191
+\c__fp_big_middle_shift_int=\count192
+\c__fp_big_trailing_shift_int=\count193
+\c__fp_Bigg_leading_shift_int=\count194
+\c__fp_Bigg_middle_shift_int=\count195
+\c__fp_Bigg_trailing_shift_int=\count196
+\c__kernel_randint_max_int=\count197
+\g__fp_array_int=\count198
+\l__fp_array_loop_int=\count199
+\l__sort_length_int=\count266
+\l__sort_min_int=\count267
+\l__sort_top_int=\count268
+\l__sort_max_int=\count269
+\l__sort_true_max_int=\count270
+\l__sort_block_int=\count271
+\l__sort_begin_int=\count272
+\l__sort_end_int=\count273
+\l__sort_A_int=\count274
+\l__sort_B_int=\count275
+\l__sort_C_int=\count276
+\l__str_internal_int=\count277
+\c__str_replacement_char_int=\count278
+\l__tl_analysis_normal_int=\count279
+\l__tl_analysis_index_int=\count280
+\l__tl_analysis_nesting_int=\count281
+\l__tl_analysis_type_int=\count282
+\l__regex_internal_a_int=\count283
+\l__regex_internal_b_int=\count284
+\l__regex_internal_c_int=\count285
+\l__regex_balance_int=\count286
+\l__regex_group_level_int=\count287
+\l__regex_mode_int=\count288
+\c__regex_cs_in_class_mode_int=\count289
+\c__regex_cs_mode_int=\count290
+\l__regex_catcodes_int=\count291
+\l__regex_default_catcodes_int=\count292
+\c__regex_catcode_D_int=\count293
+\c__regex_catcode_S_int=\count294
+\c__regex_catcode_L_int=\count295
+\c__regex_catcode_O_int=\count296
+\c__regex_catcode_A_int=\count297
+\c__regex_all_catcodes_int=\count298
+\l__regex_show_lines_int=\count299
+\l__regex_min_state_int=\count300
+\l__regex_max_state_int=\count301
+\l__regex_left_state_int=\count302
+\l__regex_right_state_int=\count303
+\l__regex_capturing_group_int=\count304
+\l__regex_min_pos_int=\count305
+\l__regex_max_pos_int=\count306
+\l__regex_curr_pos_int=\count307
+\l__regex_start_pos_int=\count308
+\l__regex_success_pos_int=\count309
+\l__regex_curr_char_int=\count310
+\l__regex_curr_catcode_int=\count311
+\l__regex_last_char_int=\count312
+\l__regex_case_changed_char_int=\count313
+\l__regex_curr_state_int=\count314
+\l__regex_step_int=\count315
+\l__regex_min_active_int=\count316
+\l__regex_max_active_int=\count317
+\l__regex_replacement_csnames_int=\count318
+\l__regex_match_count_int=\count319
+\l__regex_min_submatch_int=\count320
+\l__regex_submatch_int=\count321
+\l__regex_zeroth_submatch_int=\count322
+\g__regex_trace_regex_int=\count323
+\c_empty_box=\box43
+\l_tmpa_box=\box44
+\l_tmpb_box=\box45
+\g_tmpa_box=\box46
+\g_tmpb_box=\box47
+\l__box_top_dim=\dimen271
+\l__box_bottom_dim=\dimen272
+\l__box_left_dim=\dimen273
+\l__box_right_dim=\dimen274
+\l__box_top_new_dim=\dimen275
+\l__box_bottom_new_dim=\dimen276
+\l__box_left_new_dim=\dimen277
+\l__box_right_new_dim=\dimen278
+\l__box_internal_box=\box48
+\l__coffin_internal_box=\box49
+\l__coffin_internal_dim=\dimen279
+\l__coffin_offset_x_dim=\dimen280
+\l__coffin_offset_y_dim=\dimen281
+\l__coffin_x_dim=\dimen282
+\l__coffin_y_dim=\dimen283
+\l__coffin_x_prime_dim=\dimen284
+\l__coffin_y_prime_dim=\dimen285
+\c_empty_coffin=\box50
+\l__coffin_aligned_coffin=\box51
+\l__coffin_aligned_internal_coffin=\box52
+\l_tmpa_coffin=\box53
+\l_tmpb_coffin=\box54
+\g_tmpa_coffin=\box55
+\g_tmpb_coffin=\box56
+\l__coffin_bounding_shift_dim=\dimen286
+\l__coffin_left_corner_dim=\dimen287
+\l__coffin_right_corner_dim=\dimen288
+\l__coffin_bottom_corner_dim=\dimen289
+\l__coffin_top_corner_dim=\dimen290
+\l__coffin_scaled_total_height_dim=\dimen291
+\l__coffin_scaled_width_dim=\dimen292
+\c__coffin_empty_coffin=\box57
+\l__coffin_display_coffin=\box58
+\l__coffin_display_coord_coffin=\box59
+\l__coffin_display_pole_coffin=\box60
+\l__coffin_display_offset_dim=\dimen293
+\l__coffin_display_x_dim=\dimen294
+\l__coffin_display_y_dim=\dimen295
+\g__char_data_ior=\read2
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3deprecation.def"
+File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count324
+\l__pdf_internal_box=\box61
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2019-10-11 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count325
+\g__xparse_grabber_int=\count326
+\l__xparse_m_args_int=\count327
+\l__xparse_v_nesting_int=\count328
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+)) (RAPJ1.aux)
 \openout1 = `RAPJ1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
-\scratchdimen=\dimen264
-\scratchbox=\box43
-\nofMPsegments=\count165
-\nofMParguments=\count166
+\scratchcounter=\count329
+\scratchdimen=\dimen296
+\scratchbox=\box62
+\nofMPsegments=\count330
+\nofMParguments=\count331
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count167
-\MPscratchDim=\dimen265
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen297
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks50
 )
 *geometry* driver: auto-detecting
@@ -840,14 +1050,14 @@ LaTeX Font Info:    ... okay on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@maskedRefs=\count170
+\c@maskedRefs=\count335
 (english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 42.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring ON on input line 67.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -857,11 +1067,11 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
 (RAPJ1.out) (RAPJ1.out)
 \@outlinefile=\write4
@@ -872,35 +1082,35 @@ LaTeX Info: Redefining \nameref on input line 42.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 42.
+loading the todonotes package. on input line 67.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 48.
+(Font)              size <12> substituted on input line 73.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 48.
+(Font)              size <12> substituted on input line 73.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 48.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 73.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 48.
+(Font)              size <5> substituted on input line 73.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 48.
+(Font)              size <5> substituted on input line 73.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 48.
+(Font)              size <5> substituted on input line 73.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -916,15 +1126,66 @@ LaTeX Warning: No \author given.
 {C:/Users/myraz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 [3]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 130.
+put line 155.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-38.
+63.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
- [4] [5] [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.191 	\end{algorithmic}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.191 	\end{algorithmic}
+                        
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.191 	\end{algorithmic}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[4] [5] [6]
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.302 	\end{algorithmic}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.302 	\end{algorithmic}
+                        
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.302 	\end{algorithmic}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -932,299 +1193,299 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 on.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325 \begin{eqnarray}
+l.350 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325 \begin{eqnarray}
+l.350 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325 \begin{eqnarray}
+l.350 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325 \begin{eqnarray}
+l.350 \begin{eqnarray}
                        [9pdfTeX warning (ext4): destination with the same ident
 ifier (name{table.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.334 \end{eqnarray}
+l.359 \end{eqnarray}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.348 \begin{eqnarray}
+l.373 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.348 \begin{eqnarray}
+l.373 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.348 \begin{eqnarray}
+l.373 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.348 \begin{eqnarray}
+l.373 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.358 \begin{eqnarray}
+l.383 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.358 \begin{eqnarray}
+l.383 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.358 \begin{eqnarray}
+l.383 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.358 \begin{eqnarray}
+l.383 \begin{eqnarray}
                        [10]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.373 \begin{eqnarray}
+l.398 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.373 \begin{eqnarray}
+l.398 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.373 \begin{eqnarray}
+l.398 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.373 \begin{eqnarray}
+l.398 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.380 \begin{eqnarray}
+l.405 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.380 \begin{eqnarray}
+l.405 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.380 \begin{eqnarray}
+l.405 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.380 \begin{eqnarray}
+l.405 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \begin{eqnarray}
+l.412 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \begin{eqnarray}
+l.412 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \begin{eqnarray}
+l.412 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \begin{eqnarray}
+l.412 \begin{eqnarray}
                        [11]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 \begin{eqnarray}
+l.425 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 \begin{eqnarray}
+l.425 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 \begin{eqnarray}
+l.425 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 \begin{eqnarray}
+l.425 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.417 \begin{eqnarray}
+l.442 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.417 \begin{eqnarray}
+l.442 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.417 \begin{eqnarray}
+l.442 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.417 \begin{eqnarray}
+l.442 \begin{eqnarray}
                        [12]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.430 \begin{eqnarray}
+l.455 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.430 \begin{eqnarray}
+l.455 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.430 \begin{eqnarray}
+l.455 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.430 \begin{eqnarray}
+l.455 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.444 \begin{eqnarray}
+l.469 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.444 \begin{eqnarray}
+l.469 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.444 \begin{eqnarray}
+l.469 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.444 \begin{eqnarray}
+l.469 \begin{eqnarray}
                        [13]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.454 \begin{eqnarray}
+l.479 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.454 \begin{eqnarray}
+l.479 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.454 \begin{eqnarray}
+l.479 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.454 \begin{eqnarray}
+l.479 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459  \begin{eqnarray}
+l.484  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459  \begin{eqnarray}
+l.484  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459  \begin{eqnarray}
+l.484  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459  \begin{eqnarray}
+l.484  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.464 \begin{eqnarray}
+l.489 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.464 \begin{eqnarray}
+l.489 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.464 \begin{eqnarray}
+l.489 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.464 \begin{eqnarray}
+l.489 \begin{eqnarray}
                        [14] [15pdfTeX warning (ext4): destination with the same
  identifier (name{equation.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.509 \end{eqnarray}
+l.534 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.509 \end{eqnarray}
+l.534 \end{eqnarray}
                     ] [16] [17]
-Overfull \hbox (64.16756pt too wide) in paragraph at lines 539--593
+Overfull \hbox (64.16756pt too wide) in paragraph at lines 564--618
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 47.65657pt on input line 593.
+LaTeX Warning: Float too large for page by 47.65657pt on input line 618.
 
 [18pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.594 \end{landscape}
+l.619 \end{landscape}
                      ]
 <Figures/merge.png, id=421, 354.6048pt x 239.4546pt>
 File: Figures/merge.png Graphic file (type png)
 <use Figures/merge.png>
-Package pdftex.def Info: Figures/merge.png  used on input line 602.
+Package pdftex.def Info: Figures/merge.png  used on input line 627.
 (pdftex.def)             Requested size: 163.19751pt x 110.20525pt.
 
 
@@ -1238,28 +1499,28 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.644 \end{eqnarray}
+l.669 \end{eqnarray}
                      <./Figures/merge.png>] [20pdfTeX warning (ext4): destinati
 on with the same identifier (name{table.3}) has been already used, duplicate ig
 nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.659 \end{eqnarray}
+l.684 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.659 \end{eqnarray}
+l.684 \end{eqnarray}
                     ] [21pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.3.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.694 \begin{eqnarray}
+l.719 \begin{eqnarray}
                       ] [22]
-Overfull \hbox (25.14723pt too wide) in paragraph at lines 717--742
+Overfull \hbox (25.14723pt too wide) in paragraph at lines 742--767
 [][]
  []
 
@@ -1271,45 +1532,71 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.772 \begin{eqnarray}
+l.797 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.772 \begin{eqnarray}
-                      ] [25] [26] [27] [28] [29]
-<Figures/ERG_GG1.png, id=581, 597.432pt x 116.5956pt>
+l.797 \begin{eqnarray}
+                      ] [25] [26] [27] [28]
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.907 	\end{algorithmic}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.907 	\end{algorithmic}
+                        
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.907 	\end{algorithmic}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[29]
+<Figures/ERG_GG1.png, id=586, 597.432pt x 116.5956pt>
 File: Figures/ERG_GG1.png Graphic file (type png)
 <use Figures/ERG_GG1.png>
-Package pdftex.def Info: Figures/ERG_GG1.png  used on input line 895.
+Package pdftex.def Info: Figures/ERG_GG1.png  used on input line 931.
 (pdftex.def)             Requested size: 285.59875pt x 55.73929pt.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.915 \end{eqnarray}
+l.951 \end{eqnarray}
                      <./Figures/ERG_GG1.png>] [31] [32] [33] [34]
-<Figures/ERG_merge.png, id=642, 875.9124pt x 302.0886pt>
+<Figures/ERG_merge.png, id=647, 875.9124pt x 302.0886pt>
 File: Figures/ERG_merge.png Graphic file (type png)
 <use Figures/ERG_merge.png>
-Package pdftex.def Info: Figures/ERG_merge.png  used on input line 1013.
+Package pdftex.def Info: Figures/ERG_merge.png  used on input line 1049.
 (pdftex.def)             Requested size: 285.59875pt x 98.49568pt.
  [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1044 \newpage
+l.1080 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{table.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1044 \newpage
+l.1080 \newpage
                 <./Figures/ERG_merge.png>]
-Overfull \hbox (120.36319pt too wide) in paragraph at lines 1065--1091
+Overfull \hbox (120.36319pt too wide) in paragraph at lines 1101--1127
 [][]
  []
 
@@ -1318,28 +1605,28 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1129 \end{eqnarray}
+l.1165 \end{eqnarray}
                      ]
 Overfull \vbox (7.82336pt too high) has occurred while \output is active []
 
 
 [37]
-Overfull \hbox (14.2381pt too wide) in paragraph at lines 1152--1162
+Overfull \hbox (14.2381pt too wide) in paragraph at lines 1188--1198
 [][] 
  []
 
 [38] [39]
-<Figures/EventSimAlgo.png, id=677, 438.438pt x 395.076pt>
+<Figures/EventSimAlgo.png, id=682, 438.438pt x 395.076pt>
 File: Figures/EventSimAlgo.png Graphic file (type png)
 <use Figures/EventSimAlgo.png>
-Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1189.
+Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1225.
 (pdftex.def)             Requested size: 244.80249pt x 220.59601pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (128.55864pt too wide) in paragraph at lines 1231--1240
+Overfull \hbox (128.55864pt too wide) in paragraph at lines 1267--1276
 [][]
  []
 
@@ -1351,32 +1638,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1247 \end{eqnarray}
+l.1283 \end{eqnarray}
                       <./Figures/EventSimAlgo.png>] [41pdfTeX warning (ext4): d
 estination with the same identifier (name{table.7}) has been already used, dupl
 icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1256 
+l.1292 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1256 
+l.1292 
        ]
-Overfull \hbox (6.9811pt too wide) in alignment at lines 1270--1279
+Overfull \hbox (6.9811pt too wide) in alignment at lines 1306--1315
  [][][] []
  []
 
 [42] [43]
 File: Figures/EventSimAlgo.png Graphic file (type png)
 <use Figures/EventSimAlgo.png>
-Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1346.
+Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1382.
 (pdftex.def)             Requested size: 326.40125pt x 294.13605pt.
 
-Overfull \hbox (78.61336pt too wide) in paragraph at lines 1362--1376
+Overfull \hbox (78.61336pt too wide) in paragraph at lines 1398--1412
 [][]
  []
 
@@ -1388,20 +1675,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1386 \end{eqnarray}
+l.1422 \end{eqnarray}
                      ] [45pdfTeX warning (ext4): destination with the same iden
 tifier (name{table.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1402 \end{eqnarray}
+l.1438 \end{eqnarray}
                      ] [46] [47]
 File: Figures/merge.png Graphic file (type png)
 <use Figures/merge.png>
-Package pdftex.def Info: Figures/merge.png  used on input line 1496.
+Package pdftex.def Info: Figures/merge.png  used on input line 1532.
 (pdftex.def)             Requested size: 367.19751pt x 247.96365pt.
 
-Overfull \hbox (47.07156pt too wide) in paragraph at lines 1501--1516
+Overfull \hbox (47.07156pt too wide) in paragraph at lines 1537--1552
 [][]
  []
 
@@ -1413,7 +1700,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1547 \end{eqnarray}
+l.1583 \end{eqnarray}
                      ]
 Overfull \vbox (246.51143pt too high) has occurred while \output is active []
 
@@ -1423,9 +1710,9 @@ Overfull \vbox (246.51143pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1547 \end{eqnarray}
+l.1583 \end{eqnarray}
                      ]
-Overfull \hbox (58.33966pt too wide) in paragraph at lines 1566--1581
+Overfull \hbox (58.33966pt too wide) in paragraph at lines 1602--1617
 [][]
  []
 
@@ -1434,25 +1721,50 @@ Overfull \hbox (58.33966pt too wide) in paragraph at lines 1566--1581
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1586 \newpage
+l.1622 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{table.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1586 \newpage
+l.1622 \newpage
                ] [51]
 
 Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
- on input line 1608.
+ on input line 1644.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.1675 	\end{algorithmic}
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.1675 	\end{algorithmic}
+                         
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.1675 	\end{algorithmic}
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/multimerge.png, id=773, 334.851pt x 239.4546pt>
+<Figures/multimerge.png, id=778, 334.851pt x 239.4546pt>
 File: Figures/multimerge.png Graphic file (type png)
 <use Figures/multimerge.png>
-Package pdftex.def Info: Figures/multimerge.png  used on input line 1649.
+Package pdftex.def Info: Figures/multimerge.png  used on input line 1685.
 (pdftex.def)             Requested size: 163.19751pt x 116.70532pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1466,19 +1778,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1683 \end{document}
+l.1719 \end{document}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{table.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1683 \end{document}
+l.1719 \end{document}
                       <./Figures/multimerge.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1683.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1683.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1719.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1719.
  (RAPJ1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1683.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1683.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1719.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1719.
 
 Package rerunfilecheck Info: File `RAPJ1.out' has not changed.
 (rerunfilecheck)             Checksum: 0EAE8B99CFBD720FFE31A3F16A96429E;2855.
@@ -1487,16 +1799,19 @@ Package rerunfilecheck Info: File `RAPJ1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1683.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1719.
  ) 
 Here is how much of TeX's memory you used:
- 20492 strings out of 492484
- 369862 string characters out of 3131051
- 469326 words of memory out of 3000000
- 24094 multiletter control sequences out of 15000+200000
- 10889 words of font info for 40 fonts, out of 3000000 for 9000
+ 31174 strings out of 492484
+ 581138 string characters out of 3131051
+ 817131 words of memory out of 3000000
+ 34736 multiletter control sequences out of 15000+200000
+ 539587 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,83p,3057b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,12n,83p,3057b,721s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
@@ -1515,9 +1830,9 @@ msfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 7.pfb>
-Output written on RAPJ1.pdf (54 pages, 616434 bytes).
+Output written on RAPJ1.pdf (54 pages, 618374 bytes).
 PDF statistics:
- 939 PDF objects out of 1000 (max. 8388607)
- 318 named destinations out of 1000 (max. 500000)
+ 945 PDF objects out of 1000 (max. 8388607)
+ 323 named destinations out of 1000 (max. 500000)
  446 words of extra memory for PDF output out of 10000 (max. 10000000)
 
