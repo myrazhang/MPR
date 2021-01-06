@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.26)  1 JAN 2021 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.26)  3 JAN 2021 00:05
 entering extended mode
 **./RAPJ1.tex
 (RAPJ1.tex
@@ -772,151 +772,118 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@algorithm=\toks48
 \c@algorithm=\count163
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/algorithmicx\algpseudocode.sty"
-Package: algpseudocode 
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/algorithmicx\algorithmicx.sty"
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count164
-\c@ALG@rem=\count165
-\c@ALG@nested=\count166
-\ALG@tlm=\skip69
-\ALG@thistlm=\skip70
-\c@ALG@Lnr=\count167
-\c@ALG@blocknr=\count168
-\c@ALG@storecount=\count169
-\c@ALG@tmpcounter=\count170
-\ALG@tmplength=\skip71
-
-! LaTeX Error: Command \algorithmic already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112    }
-          %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
 Package: expl3 2019-11-07 L3 programming layer (loader) 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
 Package: expl3 2019-11-07 L3 programming layer (code)
-\c_max_int=\count171
-\l_tmpa_int=\count172
-\l_tmpb_int=\count173
-\g_tmpa_int=\count174
-\g_tmpb_int=\count175
-\l__seq_internal_a_int=\count176
-\l__seq_internal_b_int=\count177
-\g__kernel_prg_map_int=\count178
-\c__ior_term_noprompt_ior=\count179
-\c_log_iow=\count180
-\l_iow_line_count_int=\count181
-\l__iow_line_target_int=\count182
-\l__iow_one_indent_int=\count183
-\l__iow_indent_int=\count184
+\c_max_int=\count164
+\l_tmpa_int=\count165
+\l_tmpb_int=\count166
+\g_tmpa_int=\count167
+\g_tmpb_int=\count168
+\l__seq_internal_a_int=\count169
+\l__seq_internal_b_int=\count170
+\g__kernel_prg_map_int=\count171
+\c__ior_term_noprompt_ior=\count172
+\c_log_iow=\count173
+\l_iow_line_count_int=\count174
+\l__iow_line_target_int=\count175
+\l__iow_one_indent_int=\count176
+\l__iow_indent_int=\count177
 \c_zero_dim=\dimen264
 \c_max_dim=\dimen265
 \l_tmpa_dim=\dimen266
 \l_tmpb_dim=\dimen267
 \g_tmpa_dim=\dimen268
 \g_tmpb_dim=\dimen269
-\c_zero_skip=\skip72
-\c_max_skip=\skip73
-\l_tmpa_skip=\skip74
-\l_tmpb_skip=\skip75
-\g_tmpa_skip=\skip76
-\g_tmpb_skip=\skip77
+\c_zero_skip=\skip69
+\c_max_skip=\skip70
+\l_tmpa_skip=\skip71
+\l_tmpb_skip=\skip72
+\g_tmpa_skip=\skip73
+\g_tmpb_skip=\skip74
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count185
-\l__intarray_loop_int=\count186
+\l_keys_choice_int=\count178
+\l__intarray_loop_int=\count179
 \c__intarray_sp_dim=\dimen270
-\g__intarray_font_int=\count187
-\c__fp_leading_shift_int=\count188
-\c__fp_middle_shift_int=\count189
-\c__fp_trailing_shift_int=\count190
-\c__fp_big_leading_shift_int=\count191
-\c__fp_big_middle_shift_int=\count192
-\c__fp_big_trailing_shift_int=\count193
-\c__fp_Bigg_leading_shift_int=\count194
-\c__fp_Bigg_middle_shift_int=\count195
-\c__fp_Bigg_trailing_shift_int=\count196
-\c__kernel_randint_max_int=\count197
-\g__fp_array_int=\count198
-\l__fp_array_loop_int=\count199
-\l__sort_length_int=\count266
-\l__sort_min_int=\count267
-\l__sort_top_int=\count268
-\l__sort_max_int=\count269
-\l__sort_true_max_int=\count270
-\l__sort_block_int=\count271
-\l__sort_begin_int=\count272
-\l__sort_end_int=\count273
-\l__sort_A_int=\count274
-\l__sort_B_int=\count275
-\l__sort_C_int=\count276
-\l__str_internal_int=\count277
-\c__str_replacement_char_int=\count278
-\l__tl_analysis_normal_int=\count279
-\l__tl_analysis_index_int=\count280
-\l__tl_analysis_nesting_int=\count281
-\l__tl_analysis_type_int=\count282
-\l__regex_internal_a_int=\count283
-\l__regex_internal_b_int=\count284
-\l__regex_internal_c_int=\count285
-\l__regex_balance_int=\count286
-\l__regex_group_level_int=\count287
-\l__regex_mode_int=\count288
-\c__regex_cs_in_class_mode_int=\count289
-\c__regex_cs_mode_int=\count290
-\l__regex_catcodes_int=\count291
-\l__regex_default_catcodes_int=\count292
-\c__regex_catcode_D_int=\count293
-\c__regex_catcode_S_int=\count294
-\c__regex_catcode_L_int=\count295
-\c__regex_catcode_O_int=\count296
-\c__regex_catcode_A_int=\count297
-\c__regex_all_catcodes_int=\count298
-\l__regex_show_lines_int=\count299
-\l__regex_min_state_int=\count300
-\l__regex_max_state_int=\count301
-\l__regex_left_state_int=\count302
-\l__regex_right_state_int=\count303
-\l__regex_capturing_group_int=\count304
-\l__regex_min_pos_int=\count305
-\l__regex_max_pos_int=\count306
-\l__regex_curr_pos_int=\count307
-\l__regex_start_pos_int=\count308
-\l__regex_success_pos_int=\count309
-\l__regex_curr_char_int=\count310
-\l__regex_curr_catcode_int=\count311
-\l__regex_last_char_int=\count312
-\l__regex_case_changed_char_int=\count313
-\l__regex_curr_state_int=\count314
-\l__regex_step_int=\count315
-\l__regex_min_active_int=\count316
-\l__regex_max_active_int=\count317
-\l__regex_replacement_csnames_int=\count318
-\l__regex_match_count_int=\count319
-\l__regex_min_submatch_int=\count320
-\l__regex_submatch_int=\count321
-\l__regex_zeroth_submatch_int=\count322
-\g__regex_trace_regex_int=\count323
+\g__intarray_font_int=\count180
+\c__fp_leading_shift_int=\count181
+\c__fp_middle_shift_int=\count182
+\c__fp_trailing_shift_int=\count183
+\c__fp_big_leading_shift_int=\count184
+\c__fp_big_middle_shift_int=\count185
+\c__fp_big_trailing_shift_int=\count186
+\c__fp_Bigg_leading_shift_int=\count187
+\c__fp_Bigg_middle_shift_int=\count188
+\c__fp_Bigg_trailing_shift_int=\count189
+\c__kernel_randint_max_int=\count190
+\g__fp_array_int=\count191
+\l__fp_array_loop_int=\count192
+\l__sort_length_int=\count193
+\l__sort_min_int=\count194
+\l__sort_top_int=\count195
+\l__sort_max_int=\count196
+\l__sort_true_max_int=\count197
+\l__sort_block_int=\count198
+\l__sort_begin_int=\count199
+\l__sort_end_int=\count266
+\l__sort_A_int=\count267
+\l__sort_B_int=\count268
+\l__sort_C_int=\count269
+\l__str_internal_int=\count270
+\c__str_replacement_char_int=\count271
+\l__tl_analysis_normal_int=\count272
+\l__tl_analysis_index_int=\count273
+\l__tl_analysis_nesting_int=\count274
+\l__tl_analysis_type_int=\count275
+\l__regex_internal_a_int=\count276
+\l__regex_internal_b_int=\count277
+\l__regex_internal_c_int=\count278
+\l__regex_balance_int=\count279
+\l__regex_group_level_int=\count280
+\l__regex_mode_int=\count281
+\c__regex_cs_in_class_mode_int=\count282
+\c__regex_cs_mode_int=\count283
+\l__regex_catcodes_int=\count284
+\l__regex_default_catcodes_int=\count285
+\c__regex_catcode_D_int=\count286
+\c__regex_catcode_S_int=\count287
+\c__regex_catcode_L_int=\count288
+\c__regex_catcode_O_int=\count289
+\c__regex_catcode_A_int=\count290
+\c__regex_all_catcodes_int=\count291
+\l__regex_show_lines_int=\count292
+\l__regex_min_state_int=\count293
+\l__regex_max_state_int=\count294
+\l__regex_left_state_int=\count295
+\l__regex_right_state_int=\count296
+\l__regex_capturing_group_int=\count297
+\l__regex_min_pos_int=\count298
+\l__regex_max_pos_int=\count299
+\l__regex_curr_pos_int=\count300
+\l__regex_start_pos_int=\count301
+\l__regex_success_pos_int=\count302
+\l__regex_curr_char_int=\count303
+\l__regex_curr_catcode_int=\count304
+\l__regex_last_char_int=\count305
+\l__regex_case_changed_char_int=\count306
+\l__regex_curr_state_int=\count307
+\l__regex_step_int=\count308
+\l__regex_min_active_int=\count309
+\l__regex_max_active_int=\count310
+\l__regex_replacement_csnames_int=\count311
+\l__regex_match_count_int=\count312
+\l__regex_min_submatch_int=\count313
+\l__regex_submatch_int=\count314
+\l__regex_zeroth_submatch_int=\count315
+\g__regex_trace_regex_int=\count316
 \c_empty_box=\box43
 \l_tmpa_box=\box44
 \l_tmpb_box=\box45
@@ -967,15 +934,15 @@ File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count324
+\l__kernel_color_stack_int=\count317
 \l__pdf_internal_box=\box61
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
 Package: xparse 2019-10-11 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count325
-\g__xparse_grabber_int=\count326
-\l__xparse_m_args_int=\count327
-\l__xparse_v_nesting_int=\count328
+\l__xparse_current_arg_int=\count318
+\g__xparse_grabber_int=\count319
+\l__xparse_m_args_int=\count320
+\l__xparse_v_nesting_int=\count321
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -1001,16 +968,16 @@ LaTeX Font Info:    ... okay on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
+\scratchcounter=\count322
 \scratchdimen=\dimen296
 \scratchbox=\box62
-\nofMPsegments=\count330
-\nofMParguments=\count331
+\nofMPsegments=\count323
+\nofMParguments=\count324
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count332
+\MPscratchCnt=\count325
 \MPscratchDim=\dimen297
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
 \everyMPtoPDFconversion=\toks50
 )
 *geometry* driver: auto-detecting
@@ -1050,7 +1017,7 @@ LaTeX Font Info:    ... okay on input line 67.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@maskedRefs=\count335
+\c@maskedRefs=\count328
 (english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -1067,7 +1034,7 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count329
 )
 LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
@@ -1134,58 +1101,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.191 	\end{algorithmic}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.191 	\end{algorithmic}
-                        
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.191 	\end{algorithmic}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[4] [5] [6]
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.302 	\end{algorithmic}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.302 	\end{algorithmic}
-                        
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.302 	\end{algorithmic}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
+ [4] [5] [6]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1239,259 +1155,299 @@ l.373 \begin{eqnarray}
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.383 \begin{eqnarray}
+l.381 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.383 \begin{eqnarray}
+l.381 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.383 \begin{eqnarray}
+l.381 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.383 \begin{eqnarray}
+l.381 \begin{eqnarray}
                        [10]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.398 \begin{eqnarray}
+l.390 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.398 \begin{eqnarray}
+l.390 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.398 \begin{eqnarray}
+l.390 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.398 \begin{eqnarray}
+l.390 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.405 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.405 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.405 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.405 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \begin{eqnarray}
+l.408 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \begin{eqnarray}
+l.408 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \begin{eqnarray}
+l.408 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \begin{eqnarray}
+l.408 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.415 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.415 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.415 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.415 \begin{eqnarray}
                        [11]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 \begin{eqnarray}
+l.428 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 \begin{eqnarray}
+l.428 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 \begin{eqnarray}
+l.428 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 \begin{eqnarray}
+l.428 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 \begin{eqnarray}
+l.445 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 \begin{eqnarray}
+l.445 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 \begin{eqnarray}
+l.445 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 \begin{eqnarray}
+l.445 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.456 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.456 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.456 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.456 \begin{eqnarray}
                        [12]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \begin{eqnarray}
+l.463 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \begin{eqnarray}
+l.463 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \begin{eqnarray}
+l.463 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \begin{eqnarray}
+l.463 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 \begin{eqnarray}
+l.477 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 \begin{eqnarray}
+l.477 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 \begin{eqnarray}
+l.477 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 \begin{eqnarray}
+l.477 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.487 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.487 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.487 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.487 \begin{eqnarray}
                        [13]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.479 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.479 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.479 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.479 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.484  \begin{eqnarray}
+l.492  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.484  \begin{eqnarray}
+l.492  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.484  \begin{eqnarray}
+l.492  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.484  \begin{eqnarray}
+l.492  \begin{eqnarray}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 \begin{eqnarray}
+l.497 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 \begin{eqnarray}
+l.497 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 \begin{eqnarray}
+l.497 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 \begin{eqnarray}
+l.497 \begin{eqnarray}
                        [14] [15pdfTeX warning (ext4): destination with the same
  identifier (name{equation.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.534 \end{eqnarray}
+l.550 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.534 \end{eqnarray}
-                    ] [16] [17]
-Overfull \hbox (64.16756pt too wide) in paragraph at lines 564--618
+l.550 \end{eqnarray}
+                    ] [16]
+Overfull \hbox (64.16756pt too wide) in paragraph at lines 572--626
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 47.65657pt on input line 618.
+LaTeX Warning: Float too large for page by 47.65657pt on input line 626.
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+[17pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.619 \end{landscape}
+l.627 \end{landscape}
                      ]
-<Figures/merge.png, id=421, 354.6048pt x 239.4546pt>
+<Figures/merge.png, id=417, 354.6048pt x 239.4546pt>
 File: Figures/merge.png Graphic file (type png)
 <use Figures/merge.png>
-Package pdftex.def Info: Figures/merge.png  used on input line 627.
+Package pdftex.def Info: Figures/merge.png  used on input line 635.
 (pdftex.def)             Requested size: 163.19751pt x 110.20525pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19
+[18
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
@@ -1499,298 +1455,247 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.669 \end{eqnarray}
-                     <./Figures/merge.png>] [20pdfTeX warning (ext4): destinati
+l.677 \end{eqnarray}
+                     <./Figures/merge.png>] [19pdfTeX warning (ext4): destinati
 on with the same identifier (name{table.3}) has been already used, duplicate ig
 nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.684 \end{eqnarray}
+l.692 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.684 \end{eqnarray}
-                    ] [21pdfTeX warning (ext4): destination with the same ident
+l.692 \end{eqnarray}
+                    ] [20pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.3.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.719 \begin{eqnarray}
-                      ] [22]
-Overfull \hbox (25.14723pt too wide) in paragraph at lines 742--767
+l.727 \begin{eqnarray}
+                      ] [21]
+Overfull \hbox (25.14723pt too wide) in paragraph at lines 750--775
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] [24pdfTeX warning (ext4): destination with the same identifier (name{table
+[22] [23pdfTeX warning (ext4): destination with the same identifier (name{table
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.797 \begin{eqnarray}
+l.805 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.797 \begin{eqnarray}
-                      ] [25] [26] [27] [28]
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.907 	\end{algorithmic}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.907 	\end{algorithmic}
-                        
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.907 	\end{algorithmic}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[29]
-<Figures/ERG_GG1.png, id=586, 597.432pt x 116.5956pt>
+l.805 \begin{eqnarray}
+                      ] [24] [25] [26] [27] [28]
+<Figures/ERG_GG1.png, id=582, 597.432pt x 116.5956pt>
 File: Figures/ERG_GG1.png Graphic file (type png)
 <use Figures/ERG_GG1.png>
-Package pdftex.def Info: Figures/ERG_GG1.png  used on input line 931.
+Package pdftex.def Info: Figures/ERG_GG1.png  used on input line 938.
 (pdftex.def)             Requested size: 285.59875pt x 55.73929pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.951 \end{eqnarray}
-                     <./Figures/ERG_GG1.png>] [31] [32] [33] [34]
-<Figures/ERG_merge.png, id=647, 875.9124pt x 302.0886pt>
+l.958 \end{eqnarray}
+                     <./Figures/ERG_GG1.png>] [30] [31] [32] [33]
+<Figures/ERG_merge.png, id=643, 875.9124pt x 302.0886pt>
 File: Figures/ERG_merge.png Graphic file (type png)
 <use Figures/ERG_merge.png>
-Package pdftex.def Info: Figures/ERG_merge.png  used on input line 1049.
+Package pdftex.def Info: Figures/ERG_merge.png  used on input line 1056.
 (pdftex.def)             Requested size: 285.59875pt x 98.49568pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1080 \newpage
+l.1087 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{table.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1080 \newpage
+l.1087 \newpage
                 <./Figures/ERG_merge.png>]
-Overfull \hbox (120.36319pt too wide) in paragraph at lines 1101--1127
+Overfull \hbox (120.36319pt too wide) in paragraph at lines 1108--1134
 [][]
  []
 
-[36pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
+[35pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1165 \end{eqnarray}
+l.1172 \end{eqnarray}
                      ]
 Overfull \vbox (7.82336pt too high) has occurred while \output is active []
 
 
-[37]
-Overfull \hbox (14.2381pt too wide) in paragraph at lines 1188--1198
+[36]
+Overfull \hbox (14.2381pt too wide) in paragraph at lines 1195--1205
 [][] 
  []
 
-[38] [39]
-<Figures/EventSimAlgo.png, id=682, 438.438pt x 395.076pt>
+[37] [38]
+<Figures/EventSimAlgo.png, id=678, 438.438pt x 395.076pt>
 File: Figures/EventSimAlgo.png Graphic file (type png)
 <use Figures/EventSimAlgo.png>
-Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1225.
+Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1232.
 (pdftex.def)             Requested size: 244.80249pt x 220.59601pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (128.55864pt too wide) in paragraph at lines 1267--1276
+Overfull \hbox (128.55864pt too wide) in paragraph at lines 1274--1283
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1283 \end{eqnarray}
-                      <./Figures/EventSimAlgo.png>] [41pdfTeX warning (ext4): d
+l.1290 \end{eqnarray}
+                      <./Figures/EventSimAlgo.png>] [40pdfTeX warning (ext4): d
 estination with the same identifier (name{table.7}) has been already used, dupl
 icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1292 
+l.1299 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1292 
+l.1299 
        ]
-Overfull \hbox (6.9811pt too wide) in alignment at lines 1306--1315
+Overfull \hbox (6.9811pt too wide) in alignment at lines 1313--1322
  [][][] []
  []
 
-[42] [43]
+[41] [42]
 File: Figures/EventSimAlgo.png Graphic file (type png)
 <use Figures/EventSimAlgo.png>
-Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1382.
+Package pdftex.def Info: Figures/EventSimAlgo.png  used on input line 1389.
 (pdftex.def)             Requested size: 326.40125pt x 294.13605pt.
 
-Overfull \hbox (78.61336pt too wide) in paragraph at lines 1398--1412
+Overfull \hbox (78.61336pt too wide) in paragraph at lines 1405--1419
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1422 \end{eqnarray}
-                     ] [45pdfTeX warning (ext4): destination with the same iden
+l.1429 \end{eqnarray}
+                     ] [44pdfTeX warning (ext4): destination with the same iden
 tifier (name{table.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1438 \end{eqnarray}
-                     ] [46] [47]
+l.1445 \end{eqnarray}
+                     ] [45] [46]
 File: Figures/merge.png Graphic file (type png)
 <use Figures/merge.png>
-Package pdftex.def Info: Figures/merge.png  used on input line 1532.
+Package pdftex.def Info: Figures/merge.png  used on input line 1539.
 (pdftex.def)             Requested size: 367.19751pt x 247.96365pt.
 
-Overfull \hbox (47.07156pt too wide) in paragraph at lines 1537--1552
+Overfull \hbox (47.07156pt too wide) in paragraph at lines 1544--1559
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1583 \end{eqnarray}
+l.1590 \end{eqnarray}
                      ]
 Overfull \vbox (246.51143pt too high) has occurred while \output is active []
 
 
-[49pdfTeX warning (ext4): destination with the same identifier (name{table.10})
+[48pdfTeX warning (ext4): destination with the same identifier (name{table.10})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1583 \end{eqnarray}
+l.1590 \end{eqnarray}
                      ]
-Overfull \hbox (58.33966pt too wide) in paragraph at lines 1602--1617
+Overfull \hbox (58.33966pt too wide) in paragraph at lines 1609--1624
 [][]
  []
 
-[50pdfTeX warning (ext4): destination with the same identifier (name{table.11})
+[49pdfTeX warning (ext4): destination with the same identifier (name{table.11})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1622 \newpage
+l.1629 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{table.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1622 \newpage
-               ] [51]
+l.1629 \newpage
+               ] [50]
 
 Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
- on input line 1644.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.1675 	\end{algorithmic}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.1675 	\end{algorithmic}
-                         
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.1675 	\end{algorithmic}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+ on input line 1651.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/multimerge.png, id=778, 334.851pt x 239.4546pt>
+<Figures/multimerge.png, id=774, 334.851pt x 239.4546pt>
 File: Figures/multimerge.png Graphic file (type png)
 <use Figures/multimerge.png>
-Package pdftex.def Info: Figures/multimerge.png  used on input line 1685.
+Package pdftex.def Info: Figures/multimerge.png  used on input line 1692.
 (pdftex.def)             Requested size: 163.19751pt x 116.70532pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52]
+[51]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(RAPJ1.bbl [53]) [54pdfTeX warning (ext4): destination with the same identifier
+(RAPJ1.bbl [52]) [53pdfTeX warning (ext4): destination with the same identifier
  (name{figure.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1719 \end{document}
+l.1726 \end{document}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{table.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1719 \end{document}
+l.1726 \end{document}
                       <./Figures/multimerge.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1719.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1719.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1726.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1726.
  (RAPJ1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1719.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1719.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1726.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1726.
 
 Package rerunfilecheck Info: File `RAPJ1.out' has not changed.
 (rerunfilecheck)             Checksum: 0EAE8B99CFBD720FFE31A3F16A96429E;2855.
@@ -1799,19 +1704,16 @@ Package rerunfilecheck Info: File `RAPJ1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1719.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1726.
  ) 
 Here is how much of TeX's memory you used:
- 31174 strings out of 492484
- 581138 string characters out of 3131051
- 817131 words of memory out of 3000000
- 34736 multiletter control sequences out of 15000+200000
+ 30728 strings out of 492484
+ 574661 string characters out of 3131051
+ 810254 words of memory out of 3000000
+ 34298 multiletter control sequences out of 15000+200000
  539587 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,83p,3057b,721s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,12n,83p,3041b,721s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
@@ -1830,9 +1732,9 @@ msfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 7.pfb>
-Output written on RAPJ1.pdf (54 pages, 618374 bytes).
+Output written on RAPJ1.pdf (53 pages, 617930 bytes).
 PDF statistics:
- 945 PDF objects out of 1000 (max. 8388607)
- 323 named destinations out of 1000 (max. 500000)
+ 941 PDF objects out of 1000 (max. 8388607)
+ 322 named destinations out of 1000 (max. 500000)
  446 words of extra memory for PDF output out of 10000 (max. 10000000)
 
